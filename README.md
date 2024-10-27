@@ -1,6 +1,8 @@
 # Graph RAG Podcasts
 
 A Graph RAG demo application using Microsoft's Behind The Tech podcast transcripts to demonstrate the power of Graph-enhanced RAG (Retrieval Augmented Generation) compared to traditional RAG approaches.
+![Graph Visualization](graph-viz.png)
+*Graph visualization of entity relationships extracted from the podcast transcripts. Nodes represent entities (people, organizations, locations, events) and edges represent their relationships within the context.*
 
 ## Overview
 
