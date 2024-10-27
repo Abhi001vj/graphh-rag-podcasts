@@ -1,3 +1,4 @@
 python -m graphrag.index --init --root ./ragtest
 python -m graphrag.index --root ./ragtest
 python -m graphrag.query --root ./ragtest --method global "What are the top toics discussed in these podcasts?"
+python -m graphrag.query --root ./ragtest --method local "What are the episodes that talk about Billgates?"
