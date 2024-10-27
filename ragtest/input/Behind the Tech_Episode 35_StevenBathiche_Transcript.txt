@@ -1,0 +1,251 @@
+[MUSIC] 
+
+
+STEVIE BATHICHE: A big part of invention, engineering, product development is managing complexity, and moving complexity around, in fact. Like, if you think about, high level, what we can do and if you understand the different systems and the different disciplines, you can effectively move complexity around where it’s hard in one area, but not so hard in another area.
+
+
+KEVIN SCOTT: Hi, everyone.  Welcome to Behind the Tech.  I'm your host, Kevin Scott, Chief Technology Officer for Microsoft. 
+
+In this podcast, we're going to get behind the tech.  We'll talk with some of the people who have made our modern tech world possible and understand what motivated them to create what they did.  So, join me to maybe learn a little bit about the history of computing and get a few behind-the-scenes insights into what's happening today.  Stick around.  
+
+[MUSIC] 
+
+CHRISTINA WARREN:  Hello, and welcome to Behind the Tech. I’m Christina Warren, senior cloud advocate at Microsoft. 
+
+KEVIN SCOTT:  And I’m Kevin Scott. 
+
+CHRISTINA WARREN:  Our guest today is Stevie Bathiche. Stevie leads the Applied Sciences Group here at Microsoft. This is a multi-disciplinary team that combines Physics and Optics and AI and Machine Learning, and it creates the devices in the UI experiences that we encounter in our day to day, and at work at home, us is same place, right?
+
+KEVIN SCOTT:  It certainly has been over the past year and change. Although changing. I'm just super excited to be having this conversation with Stevie. He has been and is one of my favorite colleagues and collaborators here at Microsoft. He's had this amazing, 20-plus year career, really leveraging what I think is a monumentally broad curiosity, like he's just interested in so many things at like pulling all of those different areas together to find new and innovative ways to harness the power of those disciplines together. It's just so interesting talking to him always and to actually see the work that he's able to produce with his unique approach to doing stuff.
+
+CHRISTINA WARREN:  I love it. Great. Let's see what Stevie is up to these days.
+
+
+[MUSIC]
+
+
+KEVIN SCOTT: Joining me today is Stevie Bathiche. Stevie is a technical fellow at Microsoft. He leads our Applied Sciences Group, which is an interdisciplinary team of scientists and product engineers. His expertise lies in multidisciplinary approaches to inventing technologies and experiences for Windows and devices. He’s been shipping and inventing new devices, interfaces and experiences for 20 years, from the original Surface table to our present line of tablets and laptops. Welcome, Stevie.
+
+STEVIE BATHICHE:  Thanks, Kevin. It’s so cool you do this, man. I’m excited. I’m giddy. I appreciate the time you’re going to spend, spend together. And this is just so cool. I love that you do this for the company.
+
+KEVIN SCOTT:  Yeah. I’m – it’s exciting for me, too. Like, I always love opportunities to chat with you, so being able to do this on tape so that everybody can hear it, I think is neat.
+
+STEVIE BATHICHE:  (Laughter.) Yeah. No pressure that it’s recorded, but… (Laughter.)
+
+KEVIN SCOTT:  (Laughter.) So, I’d love to start with you as a kid and how you got interested in science and technology, because you have a really broad curiosity and set of interests. And, you know, I’d love to understand how that started.
+
+STEVIE BATHICHE:  That’s a great question. Yeah. I mean, as a kid, we – so, I was born in Lebanon right in the middle of the civil war. And that kind of set us off in moving every few years, different countries. And so, we moved around a lot as a kid. I lived in Libya, Pakistan. I lived in Stockholm for five years, Jeddah, Saudi Arabia, Queens, New York. And then finally, we landed in Texas, where I started going to junior high school. And then we finally moved to Virginia, where I went to high school, and eventually college. 
+
+But that moving around, like, it exposed me to a lot of different cultures, a lot of different environments. But it also gave me a fair bit of alone time, you know, which allowed me to kind of develop, you know, and kind of poke my curiosity, and, like, go in my room and build a whole bunch of stuff. And, you know, and I got really interested in, like, robotics. I built a lot of robots when I was younger, and that kind of set me off in college as well.
+
+KEVIN SCOTT:  And who was supporting you and that interest when you were a kid? Were your parents scientists or engineers, or did you have those folks around you or you were just figuring this out on your own?
+
+STEVIE BATHICHE:  My parents are not scientists or engineers, but they were just supportive and letting me do whatever I wanted. I was a good kid, but, you know, I broke a lot of stuff and, you know, I didn’t really get yelled at too much for that. And I like building things, taking things apart. You know, my dad helped me get my first computer. It was like Atari, one of the really old ones, Atari 130, you know. I was in Saudi Arabia at the time, so I didn’t get exposed to, like, the typical computers that were exposed in the U.S. So, I got, like, Atari and ACORN, and you know, that sort of thing. 
+
+And my dad was just – there was – everyone was just very supportive, both my parents. It wasn’t until really high school where I started getting, like, my teachers being great mentors, and then in college, when I had, you know, people that really changed my life forever.
+
+KEVIN SCOTT:  Where did you guys move to in Virginia? Like, where did you go to high school?
+
+STEVIE BATHICHE:  In Northern Virginia, Broad Run High School. I’m in Ashburn over here, about 40 minutes away from D.C., very rural sort of kind of place. It’s built up now. You know, this is where all the datacenters are, by the way. (Laughter.) So, if you, like, drive around, there’s like datacenters left and right – all over. And that wasn’t, like, the case before. This is where – AOL was here. That’s where they started, you know, kind of crazy stuff.
+
+KEVIN SCOTT:  And so,  when you went to college, did you know you wanted to major in engineering?
+
+STEVIE BATHICHE:  Yeah, oh yeah. I mean, I think, like, in high school, I was really inspired by the robotics that were happening at MIT. There was a professor there named Rodney Brooks, and I would just read their papers and, like, trying to understand. But I got into this technique that they had developed called subsumption architecture. And it was inspired by ants or, like, insects and how to basically develop a control system for a robot. And so, you know, I wanted to build something like that myself, and I did that. And – and so, I knew, like, computers and engineering was kind of my path. And Virginia Tech was a really good option here for me.
+
+KEVIN SCOTT:  Yeah. Virginia Tech is a great school. I’m also – I grew up in Virginia.
+
+STEVIE BATHICHE:  I know. You’re UVA, I heard. (Laughter.)
+
+KEVIN SCOTT:  I am UVA, but like, we don’t need to have any of the UVA-Virginia Tech tension. We’re all good.
+
+STEVIE BATHICHE:  (Laughter.) No, no. It’s – that’s right. That’s not necessary, even though we’re better at football, but that’s totally fine. 
+
+KEVIN SCOTT:  Yeah, you know. (Laughter.) Yeah, my – it’s sort of funny. My – my two best friends, who, you know, have been my best friends since I was a little kid, both of them went to Virginia Tech. Like, one got electrical engineering degree there, and the other got a chemistry degree there. And like, and I was computer science elsewhere. But, yeah, Tech’s a great school.
+
+STEVIE BATHICHE:  My mentor was a professor emeritus in the chemistry department. So, interesting. And I got my double E, so interesting sort of parallels there.
+
+KEVIN SCOTT:  Yeah. They – they had a fantastic, and probably still do have, a fantastic chemistry department, just some really, really interesting characters there. (Laughter.)
+
+So, you know, one of the things that is super interesting about you, and you already alluded to it, is you really have this curiosity in these boundaries between disciplines, so the subsumption robotic stuff that’s inspired by ants that you just mentioned is, I think, an example. And you’ve gone on to, like, build a bunch of, like, robotic systems while you were in college that were at this intersection. So, can you talk a little bit more about that?
+
+STEVIE BATHICHE:  Yeah so, first, I did three internships at Microsoft. And in one of the kind of in between rotations, I got really interested in trying to do biomimetics of ant behavior and colonies. I was really excited by the fact that while you might have a robot that had simple rules, a swarm of them would have kind of emergent behavior, and I wanted to kind of replicate that. 
+
+But that led me to something else, and I got into an idea where instead of trying to build a control system for a robot, why not just steal it? And as I went to the entomology department at Virginia Tech and I said, “I have this idea where I want to use a control system from an insect to power my robot.” And the guy, Dr. Bloomquist was his name. He’s like, “Okay, that’s really crazy, but let’s try it.” (Laughter.)
+
+And we took a cockroach and we attached the cockroach to one of my robots. And we used probes to kind of get a signal  from the insect itself. And we have the robot kind of like an – as an exoskeleton – sorry, the cockroach had an exoskeleton of this robot and it would drive around. And I took that work into the Tom Daniel Lab at UW, and I did it with moths later on. 
+
+But it was this idea of the synergy of essentially transducing biological signal, putting them in some sort of environment. That environment, the biological system was essentially effect – through end effectors that are artificial, like my robot, it would affect the environment. That environment would generate signal back into the senses of the insect. And you kind of close the loop there. 
+
+And the fascinating thing is, like, you know, the system, the biological system adapted. It was plastic. It conformed to the parameters that I gave it and – and was able to eventually kind of control the car effectively and even obstacle avoid. And I was like, that’s so cool. I mean, that was kind of the experiment, you know, that showed me how powerful biology is and how bad I was at programming. (Laughter.)
+
+KEVIN SCOTT:  (Laughter.) Those are two things that are good for all of us to learn. Like, I think every computer scientist or software engineer has that moment in their career where they just realize how much they have left to learn about getting better at the craft.
+
+STEVIE BATHICHE:  Totally. (Laughter.) That’s right.
+
+KEVIN SCOTT:  So, this is a funny story. Like, I did a podcast with Tom Daniel and Tom was telling me this story about you, and like, I’d known you pretty well for three and a half years, at that point. And I was like, wow, I didn’t realize Stevie done that sort of work before. It’s really – I mean, I think that, you know, the interesting thing is, like, you have taken that multidisciplinary approach and just continue to do it over and over again. I’d love to talk now a little bit about what you do here at Microsoft, which is extremely multidisciplinary.
+
+STEVIE BATHICHE:  Yeah, absolutely right. It’s kind of one of my core philosophies, and it’s helped me have this opportunity to build this team, this applied sciences group that mixes the disciplines. You know, I try not to organize around function. I organize around really people, and really encourage folks to look at the problem holistically and try to solve the problem holistically, and pull tools from the various disciplines to kind of solve problems. And the broader your approaches, I think, sometimes, the more surprised you could come at the solution, sometimes, the more optimal the solution is.
+
+So, I’ve been lucky. I have, I think, one of the best jobs. The most cherished thing is to do something every day that you love so much that you kind of feel lucky that you’re able to do. And you know I think maybe the internships helped me set up, but the people around me really encouraged me. 
+
+And I’ve been in the same job for Microsoft for 21 years. I haven’t really changed roles. It’s just kind of – just things have kind of just evolved. And this role, which is this boundary between doing research and product development, is just the same thing I’ve been doing for 21 years. I’ve just kind of grown it, and grown it organically into the various disciplines that we have today from, you know, physics, optics, AI, machine learning, software development, you know, sensing and display. And, you know, and we try to mix all these kind of technologies together to create optimal systems.
+
+KEVIN SCOTT:  Yeah. One of the things that I’ve always believed, and it may be a convenient belief, not a good one, is that you can be so much more creative when you have lots of different tools that you have at your disposal. And you don’t need to be a master even at all of the tools, but just knowing a little bit about a lot of things can let you discover stuff that you wouldn’t be able to do otherwise, or to approach problems in ways that you wouldn’t be able to do otherwise. And it seems like that’s something that you may believe as well.
+
+STEVIE BATHICHE:  Hundred percent. A big part of invention, engineering, product development is managing complexity, and moving complexity around, in fact. Like, if you think about, high level, what we can do and if you understand the different systems and the different disciplines, you can effectively move complexity around where it’s hard in one area, but not so hard in another area, you know? 
+
+And that’s why I love this boundary that I kind of work in between hardware and software. And I can move it back and forth, you know, and I could do something really hard in optics and like, ooh, man, but then, like, shift it over to software and have software essentially solve the problem instead of doing an optics, or vice versa, right?
+
+KEVIN SCOTT:  Yeah, and I think it’s everywhere. I mean, just an example. Like, I spent a couple of hours yesterday making a mount for a tablet, just sort of a silly thing, but I wound up solving the problem of, like, how to hold this little touchscreen tablet on a flexible arm with 3D printing, and laser cutting, and C&C machining. And there were parts, like mechanically, of building this thing that were easy in each of those tool sets that would have been very hard in the others. And, like, just having those tools at your disposal and knowing how to use them, like, made a thing that would have taken, like, a few days to build into something that took like an hour, which is awesome.
+
+STEVIE BATHICHE:  Oh, yeah. I mean, I’m a big believer in having the right tool. It’s just, you know, it changes the whole game.
+
+KEVIN SCOTT:  Yeah. So, let’s talk a little bit more about some of the stuff that you’ve been doing with AI, which is a relatively new but extremely powerful tool that we’re increasingly use to do exactly what you’re talking about, like this taking something that’s very, very complex to solve any other way and making it possible using this new tool. So, talk a little bit about what you have been doing with edge AI.
+
+STEVIE BATHICHE:  Yeah. Let me digress a little bit. And so, one of the core axioms that I have is that, and one of the things I’ll – I have been doing almost my entire career is, like I said, transducing biological signal, interpreting them and then giving signal back. And I did that, like, with the moth mobile, but at Microsoft, you know, the person is the one generating the biological signal, right? And using hardware and software to understand and deduce intent to gather their information, I think, has been, so far, a lifelong career at it. 
+
+And it’s a lot of fun. You know, all the way from, like, simple things like mice to keyboards to, like, the Surface table that we developed to, you know, to these magic window displays where we put cameras behind them to try to make people feel like they’re in the same room, to now shifting that complexity to – to software and edge AI. 
+
+I’m a big believer in doing computation in the right place. And one of the right places right now that I’m really excited about is in computation in our computers, in our devices right there at the source, right in front of a person, and using computational capacity to do extraordinary things. And I think that’s the revolution that’s right in front of us. That is so exciting, especially in the PC world.
+
+KEVIN SCOTT:  Yeah. So, you know, there was this really interesting Scientific American article that got published, I think, in 1995 where the term “ubiquitous computing” or “ambient computing,” I forget which one he used, like, were coined. And I think, you know, this notion of trying to figure out how to use technology to serve human needs, where you adapt the technology to the human needs versus forcing humans to adapt themselves to the technology is, like, a really interesting way to think about problem solving. 
+
+And I think, you know, that’s maybe another way of talking about what you just said. So, like, a lot of the things that you’re doing, you’re shifting the complexity into the technology to benefit the human, rather than, like, forcing the human to, like, bear the burden of the complexity.
+
+STEVIE BATHICHE:  That’s right. That’s exactly right, yeah. And if you want to be even more abstract about it, it is a form of robotics. Or automation. It is, you know, trying to take high-level commands and essentially deconstruct them, and have them to work for you.
+
+KEVIN SCOTT:  Yeah it’s such a fascinating thing, and I think it’s important for us to… it’s really important for us to focus on, like, this idea that the human is always at the center of what it is that we’re doing and, like, our purpose is to build tools for humans to help them do more of what they want to do. 
+
+And it’s one of the things that makes me really excited about the work that you do, because, like, you’re just sort of constantly exploring that landscape of opportunities. And like, I’ve seen so many demos that you’ve created since I’ve been here over the past four years where, you know, you’re just constantly looking for those opportunities. How do you decide what to poke at next?
+
+STEVIE BATHICHE:  You know, one of the things that I’ve learned over the past 20 years is that ideas come from everywhere, and one of the important things that I have to do is leave room for serendipity, leave room for the creative process. I’ve learned so many times that if you’re overly prescriptive in the beginning, you’re probably going to stifle invention and you’re going to stifle ingenuity. But at the same time, if you let it go hog wild, you won’t get things that are essentially guided or directed or useful to the business. 
+
+And so, that’s kind of the beauty about the culture that we have in our group, the Applied Science Group, being so close to Windows and devices, understanding and getting signal about the problems that we’re having. And we have, I would say, a fair degree of ability to try to solve problems that are directly focused for the business and I would say, we try to do that by essentially creating a portfolio of projects that are from near term to slightly further term, and ensure that what we do actually has impact today, but potentially can give us room to change the direction of the future.
+
+KEVIN SCOTT:  Which is, I think, a beautiful way of looking at things, like, especially this idea that you really do need to leave room for serendipity, because some of the interactions between creative people, and the interactions between complex technologies, and the interaction between the now and the future are so complex that if you believe that you understand everything and that you’re in control, like, you’re probably wrong. (Laughter.)
+
+STEVIE BATHICHE:  A hundred percent. And the way we’ve managed that in the past, you know, it’s funny. Like, people would make fun of me. Like, early in my career, I would do so many, like, projects. And some of them were good and made it in the products. Some of them were kind of crazy and didn’t necessarily make it into the products, but I knew that there was a thread there. And I would put them in a box, put a label on them and put them on a shelf. And so, I was known for, like, this you know, this archive of plastic boxes and bins of little, tiny research projects. 
+
+And when ideas would kind of reshuffle themselves, I would go up, look at my bin to see what I’ve done in the past, pull the bin out, you know, and then, like, see what I did, because these were all, like, functional demos and prototypes you know, that are really helpful to kind of elucidating if this is actually, idea, is possible or not.
+
+KEVIN SCOTT:  That is such a good idea, like really, really a good idea. I wish, now that you said it, like, I’m sort of regretting not more faithfully archiving all of the failed things that I’ve done. And there’ve been more failed things than there’ve been successful things. (Laughter.)
+
+STEVIE BATHICHE:  Yeah. And well, actually, I don’t even use the word “failure” as much because I always – I use this terminology with my team, is like, you know, failure is only the – if you measure it at that moment in time. They’re just wait points toward successes because they just guide you along your path. And you know, we all know this, right? But yeah, no, I think the – it makes it difficult to move when you have all those bins, though. (Laughter.) So, I was – I was looking at them. It’s like, “Hey, Stephen, we need to move your office.” “I’m sorry. Look, look at my – you can’t.” And they’re like, “All right, we’ll just leave you there.” (Laughter.)
+
+KEVIN SCOTT:  Yeah. You know, it’s interesting. Like, most of my output over the course of my career have been software things where it’s hard to think about, like, how to even put it into a bin to keep. And, like, it’s a shame because I do think that the software that you’ve written that hasn’t worked in the moment, like, we just treat it as ephemeral and it, like, evaporates and goes away. And, like, there are just lessons in there right now. 
+
+I will occasionally think to myself, wow, I wish I had that code that I wrote back in grad school, or I wish I – you know, like, what was it that I learned from, like, this thing that didn’t quite work. And like, we just – like, the tools have changed so dramatically that I’ve just lost huge amounts of this code that I’ve written where I just can’t see it anymore, which is… So, I love it, that you – that you do this. Like, I think it’s incredibly, incredibly interesting. (Laughter.)
+
+So, one of the things that I would love to get your perspective on is what do you think the most interesting technological shifts have been over the past few years? And like, what are you excited about over the next few?
+
+STEVIE BATHICHE:  You know, the one that has really guided a lot of the work that I have done is this evolution, this disruptive evolution of new computing form factors. And, you know, the thing that I’ve seen that changes or that gives us, grants us the ability of creating these new types of forms, that allow us to put these forms into different environments, into different use cases, into different places on the body, and sort of different places in the environment is the creation of interactive technologies – you know, basically, how do I digitize information and how do I communicate that information back to you. 
+
+So, display technology has been an amazing kind of transformation since the old CRT days, and that has really enabled us to build all sorts of computers. The sensing technology where, you know, in the old days, I was using– we were using computer vision to sense what you’re doing on top of a screen. And now, it’s all shifted to capacitive technology and pen, and trying to sense, essentially, there. But we treat it like an imager.
+
+And now, we’re at the place where we start infusing signal from all these different sensors of the camera, of the context of the environment, of all the information that you’ve generated in the world using AI to try to deduce and understand intent. And I think we just scratched that idea. We’ve just scratched that surface. That’s going to change the game for us. 
+
+I mean, this whole AI field is something that, to me, is going to blow our minds in – and we’re just beginning, Kev, right? It’s just, like, you know, I mean, to the point where it’s going to change how we deploy –how software is created, it’s going to change how software actually ends up being. 
+
+Like, right now, like, I was thinking about this, actually, this morning, you know, like we’re – when we write Word, Word is like, this static, fixed thing, like we send and we give it to the customer, and then we update it once in a while. But what if Word actually adapted to the customer in the environment because it actually understood what you wanted, and it wrote code itself that was custom to you. And we didn’t really deploy, like, specific versions of Word. We deployed things that essentially would help people do word processing.
+
+KEVIN SCOTT:  Yeah. Well, it’s one of the interesting things about machine learning. Like, I think the thing – people get, like, really caught up in the sensationalism around the idea of, like, AGI or like the vision of AI from 1955 when the founders of the field coined the term. And like, these science fictional AIs that are in movies. But, like, as a machine learning practitioner for the past almost 20 years, it’s hard to imagine AI in those terms, because to me it’s always felt like a tool and it’s, like, a tool to do this thing that you’ve been talking about in our conversation today. It’s like managing complexity. You use it to solve problems that are just too hard to solve any other way. 
+
+And I think, you know, the big paradigm shift for me has been that for 175 years or so, programming a computer or, like, leveraging a machine to go do – a digital machine, to go do work for you has been programming, and programming requires a specialist understanding of the capabilities of the machine, and then, like, a whole bag of tricks that, you know, you learn over the course of a large number of years to instruct the machine how to solve a problem, and, like, translating these human understandings of problems into a form that the machine can go do something with, which is very different from what you do with machine learning, where you are teaching a machine how to solve a problem with data and examples. 
+
+And you know, I think it’s a very profound shift in the way that you harness the power of a computer. And I think exactly what you said is the real possibility. It’s the opening up, the power of a machine to a huge number of people, maybe everyone, to, in very sophisticated ways, help them solve their problems.
+
+STEVIE BATHICHE:  I can’t agree with you more. That is it. That is the gold. That is absolutely democratizing, you know, things that took, like, eight years in college to go figure out. And now, you can hand it to millions of people in the world and imagine what the world could do with that ability. I mean, you’re just continuing to evolve society and culture to develop more sophisticated tools that can become more and more ingrained in our culture, in the way of living and how we actually go do things. 
+
+And it’s going to affect every industry, everything that we do, right? It’s going to change the world. And that’s the thing. Like, I wish I could, like, pause time and go 50 years forward because I want to go see that, or a hundred years forward, because it’s going to be so different than it is today. 
+
+And the other point is, to your earlier point about AGI, I mean, like these are just things where I think society ends up getting a little anxiety over in the beginning, like any technology. I mean, you know, like when photography was just first incepted, people thought, like, when you took a picture of someone you stole their spirit, you know? (Laughter.) Like, and now, today, we capture pictures all the time. You’re not really stealing – you’re not really capturing my spirit, you know, or stealing it. Like, you know, so I think it just takes a little time because it’s about understanding and what it can do, and really, what it can’t do.
+
+KEVIN SCOTT:  Yeah. And it’s, you know, it’s also about, like, figuring out what the norms are and, like, what the acceptable use. I mean, like with cameras, for instance, like, there’s paparazzi and, like, all sorts of obnoxious uses of technology. And we’ve sort of learned where – you know, where it’s appropriate to take a picture and where it’s inappropriate, like where it’s legal and where it’s illegal. And like, you know, we’ll have to develop all of that stuff as well, with any new technology that we build.
+
+You know, the thing that we have to do, I think, is we have to help everyone understand what the tools are capable of so that, like, as many people as possible have a voice in deciding how the tool should be used as quickly as possible, because it’s, like, that’s the true way to make sure that we get these norms mapped out in a reasonable way, you know, quickly.
+
+STEVIE BATHICHE:  I think that’s one of the really things I admire about Microsoft, in general, is that I feel like we believe we have such a responsibility to make sure that evolves well for our governments, for our society, for people. And we are so responsible in that category and very proactive, in regards to that. And I think that’s cool because that level of proactivity allows us to go invent this technology.
+
+KEVIN SCOTT:  Yeah. The thing is, it doesn’t mean that we get it right 100 percent of the time, but it, like, it does mean that we feel a very serious commitment to goal seek, to right as quickly as we can. 
+
+STEVIE BATHICHE:  Yeah.
+
+KEVIN SCOTT:  So, you know, switching gears a little bit, I wanted to ask this question in two ways. So, it’s about advice for people who are starting their careers. And so, I’d love to know if there’s anything that Stevie today would give advice to Stevie from 21 years ago. Like, if you could go back in time and whisper in your younger ear, like, what would you tell yourself?
+
+STEVIE BATHICHE:  Yeah. That’s such a great question, you know, and I appreciate that. Actually, I get – right now, it’s funny. I don’t know why I’ve been getting a lot of requests to mentor or give advice to kids, especially transitioning to college. 
+
+And the thing that I was taught that I’ve held dear and near to my heart and used as kind of a guiding principle is this thing we talked about in the beginning, this thinking of a multidisciplinary nature where what you want to do is create a unique combination of skills that sets yourself apart from everyone else, that makes you unique, drawing from crazy different fields. And so, studying different subjects, fusing disciplines together, I mean, these things are silos. Nature didn’t put those silos around, though. People did, put those silos around there. Nature doesn’t see those silos. They use all of it, right, and nature is our best engineer, our best inventor. And – and therefore, you know, use it. 
+
+Another one is - Gary Starkweather taught me this. He was one of my early mentors at Microsoft. Gary Starkweather is a dear person. He was the inventor of the laser printer, had an amazing career. And he taught me that if your idea isn’t absurd enough, it’s probably not good enough, and to really kind of stretch and –he actually told me, he said this. He said, “Don’t worry about people stealing your ideas, because if it’s really a good idea, you have to shove it down their throats.” (Laughter.) It was like – it was like – I’m like, “Okay, Gary.”
+
+But he had, like, all these whimsical things that he’s built up over over time. I would say that sort of thinking is quite helpful. It just shows that you have to – it goes kind of that – the whole serendipity of thinking where you don’t know what you don’t know, and you want to kind of get out of the fray, you know. 
+
+And if I were to go back in time and kind of whisper a little bit in my ear, you know, I really liked the journey I went through. I loved it. I like, you know, doing three internships at Microsoft really exposed me to a whole bunch of things. Turning down a full-time offer from Microsoft between my undergrad and grad was really important because I needed that grad school exposure. 
+
+That grad school exposure – again, advice for everyone – it teaches you how to acquire new fields, because I was a double E bioengineering guy, but now, I’m like a display expert optics person. AI is now a new field, you know, that I’ve kind of migrated towards and enveloped. But, life evolves, and if you have the tools to evolve with it, I think you set yourself up for a happy, you know, a happy and evolved life.
+
+KEVIN SCOTT:  Yeah, I – look, I couldn’t agree more with this notion of getting yourself into a position where you’ve got a huge breadth of skills. And like, , maybe the most important thing that anyone can do – this is what I tell my kids all the time – is, like, you have to figure out how to learn – how to learn to love learning.
+
+STEVIE BATHICHE:  That’s it. That’s right.
+
+KEVIN SCOTT:  And, you know, if you are always curious and always wanting to, like, understand how things work, and to – and it’s, like, absolutely necessary in our field because the technology itself is changing so fast, like most of what we use in our day-to-day job right now didn’t exist when we started our careers, when we were getting educated.
+
+STEVIE BATHICHE:  (Laughter.) Totally. Yeah, I know. We have to learn this as we moved, right?
+
+KEVIN SCOTT:  Yeah. And, you know, part of it is we’re inventing it, and part of it is, like, we’re adapting to what’s going on around us. But, you know, it’s sort of sort of an interesting thing. Like, we… you know, part of our job is, like, we’re way out on the frontier of what’s possible. Andyou know, the interesting thing about that is, like, every day, like, you’re – you’re sort of taking the step across that border from possible to impossible. Like, everything’s impossible before you figure it out. (Laughter.) And it just requires, like, intense commitment to, learning new things and curiosity and determination, and, like all things that I think you’re sort of exhibiting every day and, like, that your group exhibits, which is just – it’s tremendous.
+
+STEVIE BATHICHE:  Yeah, I mean, I admit, I don’t have to – I mean, just mentioning my team. Like, my – you know, like the team members that I have are phenomenal. And they’re the ones that I learn from and they’re educators. It’s funny, like, they report to me, but they’re educators to me. And, in their respective fields, I think they’re one of the best people anywhere around. 
+
+And everyone one-on-one– it’s not like it’s for them, it’s for me. (Laughter.) I just learn from them and absorb the information. I’m lucky because of the people that – that I get to work with every day. I get to learn from those people. I get inspired by those people and I get to help essentially create and make decisions as a result of those learnings to kind of move forward. And I’m not bashful about saying that. Like, you know. But I totally agree with what you’re saying. 
+
+I have a couple of quotes I’d love to share with you. And I use this sometimes at kind of the end of my talks, but it kind of shows human evolution and human culture. This is a quote from this Roman engineer from 10 A.D. and he goes, “Inventions have long since reached their limit and I see no hope for further development.” (Laughter.) You can imagine, like, you know, that’s – that’s like a thing sometimes people think, right? And in fact, I can tell you, like, that’s – even I have talked to people, like, even 10 years ago where people said that, like, I think we’re kind of done. (Laughter.) I’m like, no, we’re not. Just basically, it’s not going to stop.
+
+And then, like, there’s this – Lord Kelvin said this, and he goes, “Heavier than air flying machines are impossible.” And that’s a scientist, right? And what – first, a very logical statement, you know. And you know, it just kind of goes, shows, like, when you’re trying to do something absurd, you get run into these sort of stop signs that people hold up, but it took a philosopher, essentially, to kind of twist it around. So, Paulo Coelho said, you know, “Be creative. Men only learned how to fly when they stopped imitating birds.”
+
+KEVIN SCOTT:  Yeah, I think that’s a great quote. My favorite state of mind is, I don’t know. Like, it really is because, like, that’s where interesting things start with. And so, like, I think the smarter someone is and the more conviction they have, like, around like a pedantic point of view, like, you know, the more skeptical I am. (Laughter.)
+
+STEVIE BATHICHE:  You’re so right, Kevin. A hundred precent, man. I think that’s such a great way. That’s such a great way.
+ 
+KEVIN SCOTT:  Well, this was really, really awesome. Thank you so much for taking time out of your day to chat with us. I’m sure folks are going to love hearing from you.
+ 
+STEVIE BATHICHE:  It was fun. Like, you know, again, this is a pleasure.
+
+KEVIN SCOTT: Awesome. 
+
+[MUSIC]
+ 
+
+
+[MUSIC]
+
+CHRISTINA WARREN:  That was Kevin's conversation with Stevie Bathiche. What I found remarkable was and you touched on this when we were talking earlier Kevin, is just the multidisciplinary aspect of everything that he does, and the fact that he's using those different disciplines to really make things better. But what struck me by that, I think first and foremost was, he's lived so many different places. As a young kid, he grew up all over the world, and I have to think that that really had an impact on his worldview and plays a role in this multidisciplinary approach that he has taken to his work.
+
+KEVIN SCOTT:  Yeah. I mean, I think it's really amazing just talking to Stevie and watching the work that he's done, how much he gets out of this broad curiosity by not being one-dimensional, by understanding that the world is really broad. I think it's absolutely his experience growing up has influenced that.
+
+
+But just coupling that broad curiosity with the desire to make and build, I think you see in a lot of folks like from Bill Gates and some of the founders of our modern technological computing revolution like that. Those two things, that broad curiosity and the impulse to go do something with the curiosity to make a thing is a really powerful combo, and you really see it in Stevie's work.
+
+CHRISTINA WARREN:  You really can. What I like about it is, is you're right, we have founders and we have examples like Bill Gates and others who have this broad curiosity and this broad sense of interest.
+
+But a lot of times, as workers and as scientists or engineers or whatever the case may be, you're encouraged starting in school to focus on one thing and to really do that. They hone into you to be successful. If you want to grow your career, if you want to grow your profession, whatever it is, you need to do this one thing. What I think is great about Stevie is that he's done all these different things, and he's got this curiosity and he's able to show, no, you can weave these things together and you can be successful. If anything, having these additional perspectives can sometimes unlock stuff that you might not be able to unlock otherwise.
+
+
+KEVIN SCOTT:  Yeah, it's a great observation. I used to until relatively late in my career, feel guilty that I was broadly interested in things rather than just interested in a single thing that I can focus on and polish, and craft, and perfect, and just be the absolute best at that one thing.
+
+But I was never wired like that. My parents when I was a little kid even gave me permission. I would get interested in a whole bunch of musical instruments. I played the flute, and the clarinet, and the piano. I never mastered any of those instruments. I would play around with the thing and so learn what was stimulating to learn, and then I would move to the next thing.
+
+I felt bad about that for many years. I'm just realizing with these conversations that we have with folks like Stevie and we've had many other folks like that on the podcasts, that mastery is important and you have to invest a lot of energy in getting good at a thing, but it's okay to do that across a bunch of different things. Sometimes, magic happens when you can connect the dots between a whole bunch of different things that you've gotten reasonably good at.
+
+CHRISTINA WARREN:  No, I totally agree. I totally agree. I read an essay recently about T-shaped engineers. It really resonated with me because even though I'm not someone who's as accomplished as many things as Stevie, it's one of those
+things that when you see people who've done well in that, it's okay to do this. Being able to draw the conclusions between different areas can be just as important as being a bona fide expert in one area. I was thinking about Stevie, or rather I was thinking about that essay when I was listening to you and Stevie talk, because he, to me is like that quintessential T-shape engineer. I think that that's really remarkable.
+
+KEVIN SCOTT:  Yeah. Look, I think even with you, you have such an interesting background. You've been a journalist, you've been an advocate, you're a coder, you're a technology enthusiast. You have all of these facets of who you are, and when those come together, that makes something unique and interesting. I love that in people.
+
+
+CHRISTINA WARREN:  Definitely, and I appreciate that. That makes me feel good. I think that seeing Stevie is talking about the amazing work that's being done, I don't know, I guess to me, it reiterates whether it's a singular person or just getting different perspectives, having those perspectives is really the key to unlocking the best technologies that we can.
+
+KEVIN SCOTT:  I could not agree with that more.
+
+CHRISTINA WARREN:  Well, that is a wrap. Thank you again to Stevie for joining us today. Remember that you can message us anytime at Behind the Tech at Microsoft.com. Thanks for listening.
+
+KEVIN SCOTT:  See you next time.

@@ -1,0 +1,274 @@
+JACOB COLLIER:
+I can imagine a world where there’s some kind of creative feedback from human to AI where the human gets a cool idea based off something that the human could never have imagined. If it generates ideas or makes space, then humans will fill it and that’s cool. That’s exciting.
+
+[MUSIC]
+
+KEVIN SCOTT: Hi, everyone.  Welcome to Behind the Tech.  I'm your host, Kevin Scott, Chief Technology Officer for Microsoft. 
+
+In this podcast, we're going to get behind the tech.  We'll talk with some of the people who have made our modern tech world possible and understand what motivated them to create what they did.  So, join me to maybe learn a little bit about the history of computing and get a few behind-the-scenes insights into what's happening today.  Stick around.  
+
+[MUSIC]
+
+CHRISTINA WARREN:  Hello, welcome to Behind the Tech. I’m Christina Warren, Senior Cloud Advocate at Microsoft.
+
+KEVIN SCOTT:  And I’m Kevin Scott.
+
+CHRISTINA WARREN: And today our guests are Ben Bloomberg and Jacob Collier in a bonus episode of their conversation with Kevin. If you didn’t catch the first half of their chat in the last show, definitely have a listen. 
+
+As many of you know, Jacob is a multi-Grammy Award-winning instrumentalist, songwriter, arranger and producer. He’s up for three Grammys this year, including Album of the Year. And Ben is a creative technologist and recent PhD graduate from MIT.  Jacob and Ben began their collaboration about six years ago and have partnered to create music, and video, and a one-man stage tour…well, you really just need to jump on YouTube and see for yourself because what they do is incredible.
+
+KEVIN SCOTT:  Yeah, you have no idea how excited I was to do this interview. Like we’ve been trying to get Jacob on the podcast for a while. I am an enormous fan of his and have been for several years now. I think like many people I discovered him on YouTube, where he began his musical career making these YouTube videos that were sort of visual and audio, just these rich, multilayered experiences, like everything from these sort of whimsical songs. Like he made this, video in a recording of The Flintstones, and won Grammy for that, like Flintstone’s arrangement. But he’s also like composed some incredibly compelling new music.
+
+The thing that makes him relevant to this podcast, which is about technology, is that they use technology in such interesting ways to help Jacob realize his vision, and like part of that is like, you know, how you put a song together that is so layered and interesting, with you know, so many vocals and so many instruments. 
+
+Like part of this is like how you translate that into a live performance which is very, very hard. And then part of that is like how he uses technology to create community and to collaborate, which I think is really, you know, interesting, and he’s sort of a – you know, like an internet native, a YouTube native, a social media native, and you know, like he uses all of those things to an incredibly good creative effect. So, anyway, like, I’m an enormous Jacob fan.
+
+CHRISTINA WARREN:
+As am I. Ok so, the conversation got started before we even had a chance to do our sound check. But it was too good to not share. So next up you’ll hear Kevin, Ben and Jacob first jumping on the line together. And then we’ll pick up with the bonus episode from their extended interview. 
+
+
+[MUSIC]
+
+
+KEVIN SCOTT: Hello!
+
+JACOB COLLIER: Hey Kevin!
+
+KEVIN SCOTT: Hey Jacob! And Ben. So nice to meet both of you.
+
+JACOB COLLIER: You too. This is amazing. And a privilege. And a treat indeed.
+
+KEVIN SCOTT: Oh goodness, it’s such a privilege for me. You have no idea how many of your videos I’ve watched.
+
+JACOB COLLIER: Jeez Louise.
+
+KEVIN SCOTT: My wife and children and I have been running around all summer long listening to “All I Need” and its variety of iterations. 
+
+JACOB COLLIER:  There have been a few different versions at this point. That’s amazing to hear. 
+
+KEVIN SCOTT:  Yeah, I mean, it’s really interesting. I was, when I was a kid, a was an enormous – and I still am an enormous fan of classical piano, and one of my favorite pianists was Vladimir Horowitz. And he, you know, he had such a long performing career that he performed the same repertoire over and over and over again. But like, nothing was ever the same.
+
+Like other pianists, like everything had this consistency to it. And like his performances were just wildly different, sometimes just amazing. And sometimes like they were just total duds. But he just, he was fearless. Like, I don’t even know if he was capable of performing the same thing the same way twice.
+
+I mean, is that. How do you think about a performance? Like they, they always seem to be, you know, mutating and changing, you know, with you?
+
+JACOB COLLIER:  Yeah, yeah, it’s I guess it’s something that you get addicted to after a while. You know, you can’t do the thing you already did because that’s already been done by you. So, you have to find something new. And, and Ben and I have been thinking in this way for, I guess a few years, I guess, since we met, you know, about six years ago now, whatever, whatever it was. But you know, once something has been done, you kind of seek the edge of it, and then you – you grow from there. You know, and so it’s been a funny thing with “All I Need,” but you know, I think it’s eight – eight or nine different versions were in, so that song that now exists, and each one is – has, has taught us something new, and each one is kind of – evolves the song, and it evolves the concept, and gives me a clue about what it is that I like, and what it is that I – you know, I want to grow towards I guess. 
+
+KEVIN SCOTT:  I really love you, the added a melodica to the – what was it, the Jimmy Kimmel performance?
+
+JACOB COLLIER:  Yeah, right.
+
+KEVIN SCOTT:  That was, that was a beautiful touch.
+
+JACOB COLLIER:  I appreciate it, like thanks so much.
+
+
+[MUSIC]
+
+CHRISTINA WARREN: All right, well that was just a little bit of 'behind the scenes.’ You can see how great that conversation was and we hadn’t even started yet. Now, let's get to the bonus episode, focused on AI and creativity.
+
+[MUSIC]
+
+KEVIN SCOTT:  One of the things that I spend an enormous amount of my time on is AI. We are building very, very sophisticated systems for doing natural language and vision and speech. 
+
+And, you know, increasingly AI is, you know, becoming a systems problem almost at the largest scales. So, like, we're building supercomputers to train models on.
+
+But like, one of the things that’s happening from all of that investment is AI is getting used in more and more places. And, you know, I’m just really curious about how you all think about how AI plays a role in what it is that you’re trying to create, like whether it’s – you know, I’ve seen AI systems that can imagine performances, like whole, like, actual performances, like, in the style of Chopin or Rachmaninoff or, like, pick your thing. 
+
+Like, I’m not sure that’s super interesting, but like, there are other ways that, like, AI is being used and, like, you know, you guys is like some of the best users of technology to create these experiences. I’d just love to – love to hear how you’re thinking about it.
+
+BEN BLOOMBERG:  Yeah, I think that’s really interesting because there’s – yeah, like you say, there’s so many people trying to use AI to create sort of – sort of quote/unquote “creative performances” or outputs. And it’s really interesting because a lot of these systems, sort of the – the success metric for them is not being able to tell the original from, you know – or the output from the real thing, I guess we could say. So it’s sort of a copy.
+
+And I think the big question that a lot of people have is whether it will ever get to the point where we value the AI for its own creativity rather than just sort of as an imitation.
+
+And, you know, one thing that we always say is, you know, you know, whether it’s sort of style transcription or, you know, these models, Markov models and things that are combined to create these sort of very realistic, but not quite there representations of other things, all of that gets to what we would say is like maybe the 85th percentile of what we would call sort of good.
+
+And I feel like when you get to creativity, I think somebody like Jacob or – or anybody who’s really coming up with truly new and groundbreaking sort of material is that’s all in in the upper 5 percent of sort of what we can do. 
+
+And so, you know, as a toolkit AI is really interesting to be able to sort of automate things that maybe would previously take a lot of work or would take a lot of, you know, sort of drudgery, but I have yet to see an application where it’s going to come up with something, you know, necessarily truly new  or anything along the lines of, you know, like what Jacob would do, you know, where it’s actually iterating. 
+
+And, you know, of course, there’s these things like GPT3 and, you know, even like Sony CSL and Francois Pachet’s flow machines where people have gotten really far. And I think that has an application for like ads and cinema music, and things where we’re not sort of really zeroed in, dialed in on – on, you know, on what this is. 
+
+And then there’s a whole, you know, genre of output where it’s just completely surrealist and, you know, you look at like the half bird, half cow, you know, or all these faces that get generated. And that’s kind of its own thing. It’s, you know, different.
+
+But Jacob and I talk a lot about, like, “Well, could we create a harmonic intelligence that sort of like encodes Jacob’s sense of composition and sort of harmony into an AI?” And I think we could do that as a compositional tool for other people to use, but whether something is really going to actually be able to do what he does in the best way that we could do it, it would just be an imitation of what he had done up until that point and that would never be enough, I think.
+
+KEVIN SCOTT:  Have you guys seen – so Google did this really cool thing called Blob Opera right around Christmas, which is, I think exactly what you’re talking about. So it’s more instrument than, you know, like a thing that’s trying to create an entire performance or creative experience. 
+
+And, like, it’s sort of how we think about AI as well. Like, it’s – like, I’m not trying to – like, God knows, like, I would never try to replace someone like Jacob because, like, you know, the precious thing that we have in this world is our humanity. 
+
+Like, what I want is to create more tools and more instruments to help us be more human, to enhance that humanity, not, you know, diminish it or like take the dignity away from it by, you know, sort of substituting for it. 
+
+And, you know, I thought that Blob Opera, like in an artistic context, was like an interesting thing. You know, they trained it from a bunch of professional opera singers voices and, you know, like, they gave those voices an instrumentality for, you know, other people to play around with, which is interesting.
+
+JACOB COLLIER:  I love it when it applies to play and when it gives you ideas. From my perspective, you know, the half cow, half cat thing is wicked. I love that. I mean, I love hybrid animal images anyway. I have like a soft spot for them. But, you know, I think it’s really brilliant when it’s not trying to be reasonable because then it breaks me out of my show and something becomes possible for me that wasn’t possible before, that I wouldn’t have thought of it because I’m only a human, you know. That’s cool for me. 
+
+I think AI trying to be serious is doomed to fail, partly because I think of the way that it would – the way that it would receive feedback, actually. If you go back to the feedback loop thing, if you put an AI on stage and you give it an audience response, I don’t know if it would be able to read that. 
+
+And I think that the amount of humanity that’s needed to turn up and care about all the different levels of that kind of empathy mixed with confidence, mixed with kind of fearlessness, mixed with doubt, mixed with inspiration, the sort of combination of elements there, you know, plus collaboration if you’re on stage with other people.
+
+And even, you know, it’s a bit like comic timing. You know, it’s like doesn’t AI get better than a human at comic timing? Because a lot of being on stage is about this is the moment for this or now is the moment for this in just a moment. Or I’m just going to wait a moment longer so the audience can laugh again or so the audience can feel what that meant or whatever.
+
+Those kinds of – that to me is why I love touring, not because, you know, people buy more tickets, for example, to the shows or because the applause is louder after a particular song, or there’s more voices that sing along, you know, these kinds of things. And sure, these are metrics that I will judge the performance on to a point, like, everyone was singing in that last song, I must have done a good job. But actually I just don’t think an AI would necessarily ever be subtle enough to and some ways imperfect enough to care. 
+
+You know, it takes a performer to be on stage and second guess what you’re doing to make it special. 
+
+KEVIN SCOTT:  Yeah.
+
+JACOB COLLIER:  You know, you can parrot something. It doesn’t work so well. And that to me feels like one of the most fundamental differences is how – like how the kind of consequence of a creative action is reacted to and how that’s received and then changed. 
+
+Because sometimes you stick – you say, I’m not going to listen to you and you flirt and sometimes you say, yeah, okay, I’ll go with you, audience, or you say, oh, okay, that’s a good idea, I’ll move with that. And sometimes you say… you know what I mean, just it’s so dynamic and it’s so able to be replicated.
+
+KEVIN SCOTT:  Yeah. Look, and I think even if you could build an AI that would do all of those things, like, what I’m chasing in music is goosebumps. And if an AI gives me goosebumps, it feels like manipulation. Whereas if a performer gives me goosebumps, it feels like connection. 
+
+And like, I just don’t even – like, even if you could have it, which I think you’re right, like, it would be very, very, very hard, it’s like, I don’t – I’m not looking to be manipulated. I want to be – I want a connection.
+
+JACOB COLLIER:  I think when I get goosebumps, I sense a fallibility in something that I relate to. I think that’s almost – that is often what gives me goosebumps is like, “Wow, and you’re still shining anyway, you know, wow. So lucky and so shiny. Wow. I can’t –“ Like I see a part of myself in some things, imperfections, or in some thing’s kind of power or in some – I don’t know, you can’t – you can’t articulate it, you can’t, but AI by nature is not fallible because it’s always the best iteration of itself.
+
+BEN BLOOMBERG:  It has to be articulated.
+
+JACOB COLLIER:  Exactly, yeah, everything has already been articulated, and the thing that’s unspoken-
+
+BEN BLOOMBERG:  Yeah. And I think, Kevin, what you said at the beginning, you know, we’re trying to have the technology get out of the way. And it’s such a narrow balance of sort of feeling – you know, getting those goosebump moments and not pulling people out of the sort of immersion. And that’s very difficult. And that’s a very hard problem to quantify. There’s a lot of unknowns and there’s a lot of constraints.
+
+On the other hand, if you can use something like AI to – you know, for example, with the looping show, we always talk about giving Jacob 12 arms so that he can play 12 instruments at the same time. That starts to get interesting. Or maybe, you know, there’s a system out there now where you feed it a photo of a room and it gives you a reverb trail for that – for that room. Those tools start to start to be fun. So I think we’re excited to explore that going forward.
+
+KEVIN SCOTT:  Well, look, I think, you know, I’m not a musician, so, like, I – maybe what I’m about to say is just sort of nonsense, but, you know, it seems to me like there’s just this distinct difference between a score and instruments and a performance. You know, like I can listen to Murray play that – you know, that – that Chopin G minor ballade, like, I can get goosebumps at the moment. Like, I can go look at the score and it’s like, okay, like, you know, like, I and I have many, many times, like, all right, you know, what is going on here that is giving me goosebumps. 
+
+And it’s not the score because like, I can, like, put the score through a MIDI player and like it can, you know, robotically play the notes and it’s like, “ All right, no goosebumps there.” You know, I can listen to a whole bunch of other performers, play it, no goosebumps there. Like, there’s just something about this very, like, very complex that – you know, and it just feels deeply human and, like, I don’t want a machine trying to replicate that. You know, but if a machine could come in and, like, help a human, like, produce more of that, like great.
+
+JACOB COLLIER:  And sometimes it can be helpful to – to bounce off an – to bounce an idea off against something that’s neutral as well. You know, if I’m working on something and I share it with a friend of mine or someone in my family or whatever, then I kind of risk their judgment filtering into my own view of the song and then my mind being changed or whatever, you know. 
+
+And that doesn’t change, doesn’t matter how old you are, you always have that slight fear when you show someone something that they might just say, oh, this is whatever. 
+
+But I can imagine a world where there’s some kind of creative feedback from human to AI where the human gets a cool idea based off something that the human could never have imagined, if it generates ideas or makes space, then – then humans will fill it and that’s cool. That’s exciting.
+
+KEVIN SCOTT:  Yeah, you know, this is the other thing, too, about – about AI, like imagining an AI that was trying to compose a thing or deliver a performance the same way that you do. 
+
+Like you – you know, one of the things that I think is very interesting about what you do is you don’t always give people what they’re expecting in a song, like, you will – you’ll be sort of trucking along and it’s like, okay, like, you know, here’s the – here’s what we expect. And then you will, like, do this harmonic thing that’s like, “Oh, crap, like, why is there dissonance here now?” 
+
+And, you know, and if you, like, the things that are really good at is sort of, like, reading, you know, reading someone’s response to a thing and like giving them more of what they want. 
+
+And like, the special thing that you do is, like, you are, like, challenging us to think more about the music by occasionally and strategically giving us something that we’re not expecting. And like, I just don’t know how you like build the projective function of the feedback loop for that. 
+
+BEN BLOOMBERG:  Or like even literally making up new notes. 
+
+KEVIN SCOTT:  And like I just don’t know how you build the objective function of the feedback loop with that.
+
+BEN BLOOMBERG:  That’s totally the challenge.
+
+JACOB COLLIER:  It’s a really individual dance, isn’t it. Like everyone has to do their – you know, my idea of what too much is or too dissonant or the right moment, like, that changes all the time. And I learn from things I like and from things I don’t like and all this stuff– and then I just come out and I’m a person, you know.
+
+And I think what can be moving about that, if it works well, is that a person is doing it all, you know, and as you say, you could take the same notes and something else can put them together in exactly that way, but something is kind of always lost. 
+
+And yeah, there’s that funny dance between, you know – and I – I struggle with this every single day when I write. It’s like, how much do I give you what you want and pander to the thing that will do well or people like or is reasonable to do or makes – you know, it makes sense or you know, and then how much do I – do I– do the opposite, do I push you in the – in the other direction? That push-pull is magical. It really is interesting.
+
+KEVIN SCOTT:  Yeah. Have you guys seen this? There’s a video of Bobby McFerrin at a neuroscience conference where they’re sort of talking about, you know, what’s built into our brains about music. 
+
+And he gets up in front of the audience and he like hums a note on the pentatonic scale and points at the audience. And, like, he says nothing, but he points at the audience and then they parrot the note back to him.
+
+And then he does this thing where he grounds that note on the pentatonic scale to a position and then he jumps and he goes to the next note on the scale and hums it and then points at the audience and they hum it. And then like, they’ve got the pattern. And then he like does this performance on the audience, where as he’s jumping, they just automatically know, without him having to hum it, like, what’s the next set of notes are on the scale. 
+
+And it’s like the most incredible thing. It’s like – and, you know, he says at the end of it that no matter where he goes in the world, he can do this same experiment with an audience and, like, they all have the pentatonic scale in their head. 
+
+And so, like we do have this expectation in our head about, you know, like what a musical performance is. And, like, you know, I think the things that you do are sort of interesting in that, like you sort of are pushing, you know, that inbuilt thing that we’ve got in our head in, like, very compelling ways. You know, and again, like it’s – I think it’s just about like, you know, giving people a new lens on, like, something that biologically even they may, like, just deeply understand and expect.
+
+JACOB COLLIER:  I guess you could say the same for storytelling. I love that – that video of Bobby’s. I was bowled over the first time I saw it, and it gave me all sorts of ideas. 
+
+But I was going to say, it’s the same with the stories in the sense that, you know, everyone kind of knows about, you know, departure and arrival, and everyone kind of knows about, you know, hate and love and kind of, yeah, just, I guess, tension and release in a primary color sense. People tend to feel that. 
+
+And so, in some ways, our job as artists is to it could be with a completely new set of materials. It could be like, I’m going to lay out the fundamental elements of this equation here. Like, this is the ground, the resting point. And then here is – and these are the elements that are attached to that. And then maybe one of these elements is to make a journey away to a different place. And this is the other. And then maybe there’s some complication or there's a tension or a change of speed or something is inverted or whatever. 
+
+And then, you know, something happens over here and – and eventually you may be moved to a new place or maybe whatever. And then maybe at the end, you come back home and you land home and you think, oh, I remember – I remember what this feels like. This is some kind of resolution. Now, obviously, not all stories are like that and so forth.
+
+KEVIN SCOTT:  But – but a lot – a lot of them are. I mean, like, it’s very interesting. I mean, so, you know, you have this Joseph Campbell, you know, Hero with a Thousand Faces, you know, like so many of our stories, like fit this pattern.
+
+And so, like, there’s just something, you know, again, like the pentatonic scale almost, like, it’s almost like we’re sort of built in with this, you know, this narrative framing of what a story ought to be. 
+
+You know, and on the one hand, that’s amazing. And on the other hand, it’s sort of depressing. Like, you don’t want to think that every story has to fit that pattern in order to be interesting.
+
+JACOB COLLIER:  I think people just – people keep on iterating different ways of making tension and then releasing the tension. And that’s, like, so interesting in kind of like an infinite way and has unlimited potential for innovation and kind of new feelings, new spaces, new whatever. 
+
+Ben, what do you think?
+
+BEN BLOOMBERG:  I actually think that that’s true for designing the – the production technology and the instruments as well. Because you really – you know, you really are trying to create the sort of infrastructural pieces that support that through the performance.
+
+And, yeah, you know, you can spend all this time on engineering and trying to sort of get all of your details correct. And in the end, it’s really about sort of supporting that kind of story and that kind of experience.
+
+
+KEVIN SCOTT:  Yeah, and maybe even building the infrastructure in a way, I mean, like I think you said this earlier, like, you don’t want the instrument to dictate the performance. Like, you don’t want to make too many assumptions about what the performance is going to be, you know, that you are constrained by the instrumentality or the – you know, like the – you know, yeah, I don't know, it’s like fascinating.
+
+BEN BLOOMBERG:  It’s actually interesting, it’s a funny balance because we sort of say – this is sort of slightly related, is that there’s this balance between something being too obvious and sort of not obvious enough.
+
+So when it comes to technology on stage, if you are – if the audience can’t tell how the technology is sort of connected to what the performer is doing and what the music is doing, that’s not great because they’ll get – you know, they – it’s just confusing. If it’s really obvious that, like, you push this button and it makes that noise, it’s also – it gets kind of boring really fast. And so there’s this middle ground where you’re sort of playing with expectation and you kind of draw people in, and that’s something that we chase. Like, we really are trying to find things that are complex in an interesting way. 
+
+And I think in terms of building the Harmoniser, that was sort of the – that was the most important piece is to find something that’s sort of infinite in very connected ways to what Jacob is doing. So – so using the voice as an input, for example, is – does that because there’s so much variability, sort of continuous and it’s so directly connected to what Jacob’s doing. But it’s also very clear what that connection is. 
+
+So I think that --that’s – yeah, that’s a huge thing that we care a lot about when we’re building all this stuff.
+
+KEVIN SCOTT:  That’s so fascinating. So, we’re almost out of time here, although I could talk to you guys all day long, like this is so great. Maybe the last question I’ll ask is, you did this fellowship or residency at MIT. I watched some of the video there, like one of the things that you did is give an orchestral performance of “Hideaway.” I don’t know, Ben, if you were like – obviously you were a PhD student at MIT. When did you defend your dissertation, like recently?
+
+
+BEN BLOOMBERG:  Yeah. In February. In November.
+
+KEVIN SCOTT:  Congratulations, man! That is unbelievably awesome. You should be so proud of yourself, like it’s just great. 
+
+But so, like in that residency at MIT, like for me, I felt like you just did this incredibly moving thing. Like “Hideaway” is-- like I watched a bunch of your videos before and I’m like, my god, these are so interesting and entertaining. “Hideaway” was moving, like I don’t know what it is--the lyrics. And then translating that to this orchestral thing with this big group of people, it’s just super interesting. Did you realize there was something special going on with that song, and that whole experience of creating a thing with so many people?
+
+JACOB COLLIER:  I didn’t think too much about it, honestly. I think I knew the song was special when I wrote it because I was opening a real door to my own creative process. Because I’d never done anything like that before. I’d never written a song, funnily enough. It was almost like I said, well, what if I gave myself permission to just write a song? And like a few times I’ve done this, it starts being kind of simple and ends up kind of complex and detailed and stuff. So, it starts with this kind of simple melody, and takes you on another journey and it moves away. I was very excited about that, and it felt like I was touching something that felt new and felt interesting. You know when you’ve just gone further out on a limb than you’ve ever gone, you’re just walking and you don’t know where you’re going to go? That feeling, and an idea, it was a special moment with “Hideaway.”
+
+I remember, Ben, when we say and put it together in my room, I mean, we’re mixing everything and we were thinking about how that song felt. We both kind of felt this was a song that we loved. But I think our job at that point was just to see the song as what it was at that point and put it on the album, which we did. The orchestral arrangement thing was such a whole other level. Because I’ve sat in my room and made music, and kind of done it alone for so long. The feeling of taking a song like “Hideaway,” which is almost about that space, about this space of making music here, being alone and the trust within that, and the questioning within that – all that. To take that and to kind of walk up on the other side of the world, and have such kind of wonderful, enthusiastic, warm-hearted people who were there to play it, it was really, really crazy for me. Because it’s important to remember at that time, I had very little experience of meeting anybody who had listened to my music outside of my friends. I’d basically just left home, kind of thing.
+
+It was like I was just – you know. When I went to meet Ben, that was my first flight alone without my mom ever, to the States in 2015. It was only about a year later that we were doing those songs in Kresge Hall at MIT. It’s a spectacular feeling, and you feel very small and very big at the same time. You know, you feel like you’re kind of – your values are resonating, quite literally, in a space filled with people. But you feel you’re one of a great number, and the whole thing is much bigger than you are. So, it’s a mixture of kind of humbling, and joyous, and I suppose almost like a celebration of what life is about.
+
+You know, you slave away at these ides, these songs, these concepts, these technological accomplishments, these things we build and dream up, and then there’s a moment where you have to take your hands off the wheel and say, “Okay, let’s put this in the world and see what happens, and let’s see what people make of it.”
+
+I remember playing “Hideaway,” and I’ll never forget playing “Hideaway” at that particular gig, and it was really slow. We did it really, really slowly. We did it way slower on the gig than we’d ever done it in rehearsal. It was like 30 BPM, really slow, but it felt really special and really good. We were really swimming in the spirit of it. It’s almost the moment where you look back and you say, “So that’s what the song was about. I didn’t know it until now.” You kind of have to jump into the water, see what happens with something, to be able to look back and say, huh. That’s what it was all about.
+
+KEVIN SCOTT:  You know, this is one of the things that I love so much about music, because there’s just this mysterious element to it. We can talk about all the things, like the harmony, the music theory, the technical aspects of playing the instruments, like the software, the harmonizer, the mixing.
+
+But then you have this performance, right? There’s a handful of things in music that literally give me goosebumps, like right down my spine. It’s just a handful. So, Murray Perahia playing Chopin’s G Minor ballade, like right around bar 63 where the tension is building up and then it just blows out. Like goosebumps, every time. Like Mozart’s the Adagio, beginning of the Adagio for the Clarinet Concerto, goosebumps every time. Like that performance of “Hideaway,” like goosebumps every time. I can’t explain it, I don’t know why, I don’t know why it’s that performance and not the video. I don’t know why it’s that song and not others. I don’t even understand what’s going on there. But it’s like something that obviously, there’s something neurobiologically going on in your brain, and it feels like a connection. It’s incredibly special, and I don’t think anybody knows how to replicate it. It’s just great.
+
+JACOB COLLIER:  Thanks so much for saying that. Yeah, I was goosebumps all over in performance, which is always a sign that I’m doing something right. But yeah, as Ben and I try to think about things sometimes, I think we just sort of follow our goosebumps into the next thing that we’re doing. It’s like, “Well, I’ll follow it and see where it goes.” We don’t know. No one knows. I think if there’s one thing the last 12 months have taught us, it’s whatever you think you knew, you don’t know. But you can still turn up, you know? And you can still find joy in stuff, and you can still play.
+
+KEVIN SCOTT:  That’s so fascinating. Again, like I could– I could talk all day with you all. Again, I’d love to meet you all in person and just spend – spend a bunch of good time chatting. 
+
+
+JACOB COLLIER:  Yeah, that sounds brilliant. I’d love to. I’d absolutely love to, yeah.
+
+BEN BLOOMBERG:  Yeah, thank you. Thank you.
+
+
+[MUSIC]
+
+CHRISTINA WARREN: 
+Well, that was Kevin’s conversation with Ben Bloomberg and Jacob Collier. 
+Kevin, you didn’t talk too much about AI in your conversation, although you were talking about technology and how things have evolved. But I was just curious, from your perspective, I don’t know if you’ve seen the Jukebox project from OpenAI, it’s basically a neural net that generates music. And I curious if you had any thoughts about that project or projects like it and how those worlds could interact in the future with people who are doing and creating things like the work that Ben and Jacob are so good at.
+
+KEVIN SCOTT:  Yeah, I think it’s an incredibly interesting space. We got into it a little bit right at the very end of the episode, and, like, maybe that’s the, you know, the next episode if we can persuade them to be back on. 
+
+I think that these AI technologies have an enormous potential to help power the creativity of artists and entrepreneurs and makers of all ilks, and, you know, Jukebox is really interesting. 
+
+You know, one of the things that we talked about is to me, the application of that AI will be most interesting when it puts a tool into the hands of a creator that helps them to expand their creative possibilities and opens up their horizons to new things that they couldn’t do before. 
+
+CHRISTINA WARREN:  Yeah.
+
+KEVIN SCOTT:  The thing that’s not interesting to me is, like, things that you’re trying to do where you make the AI itself like the sole creative agent. 
+
+CHRISTINA WARREN:  Right. Right. Yeah, no, I totally agree with you, and  I think it would be great if we could have Ben and Jacob back to talk more about that, because I totally agree with you, it’s not that interesting for the AI to be the creator, but if the AI could be used to make the tools better, so that the output could be even more new and different, that could be really, really special.
+
+KEVIN SCOTT:  Yeah, and look, I think we’re at the point now where the tools are capable of a lot. Things like Jukebox and, like, there have been a few other experiments. Like, we’ve even done some things at Microsoft Research. And I know Huawei has done a few interesting things where you can have an AI now compose a piece of classical music in the style of your favorite composer. You can say, you know, write me a piano piece that’s in the style of Rachmaninoff or Chopin, and it can do something that is stylistically very much like Rachmaninoff or Chopin. And you just sort of listen to it the first time and you’re like, wow. 
+
+There’s this YouTube channel called TwoSet Violin that are these two professional violinists who, like, comedically have these conversations on YouTube about classical music, and on one of their episodes, they looked at, I think, that Huawei AI that was trying to write the third movement of Schubert’s Unfinished Symphony.
+
+And, like, it’s just sort of staggering, like what the AI did, like it, you know, it in that third movement, like really picked up the, you know, sort of the stylistic things that made Schubert special and, like, gave him a unique voice as a composer. 
+
+Whether or not the thing was compelling, like, who knows? But, you know, I think what we really need to do is to get these tools into the hands of artists who will actually figure out the interesting things to do with the technology. 
+
+CHRISTINA WARREN:  One hundred percent, 100 percent. And that’s the thing that makes me excited as somebody who loves both music and art.
+
+All right, well, that’s all for today. We were so delighted to have Ben and Jacob on the show. So, thank you again to both of them.
+
+Send us a message anytime at BehindtheTech@microsoft.com, and thank you for listening.
+
+KEVIN SCOTT:  See you next time!
