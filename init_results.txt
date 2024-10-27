@@ -1,0 +1,197 @@
+$ python -m graphrag.index --root ./ragtest
+Logging enabled at D:\0.upwork\2024upwrok\graph-rag\ragtest\output\indexing-engine.log
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\numpy\core\fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version.
+Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+🚀 create_base_text_units
+                                  id                                              chunk                          chunk_id                        document_ids  n_tokens      
+0   d860068315890bae779295efc52a29a6  \nMAE JEMISON: 100 Year Starship is about maki...  d860068315890bae779295efc52a29a6  [00ff4fca30e291bc1b3fe51ef4563cde]    1200.0      
+1   9e859295e56ccc9aa92432531da89338   \n\nBecause if you think about, as you’re sit...  9e859295e56ccc9aa92432531da89338  [00ff4fca30e291bc1b3fe51ef4563cde]    1200.0      
+2   a77ad762395ec596b3b8da236e47235a  E JEMISON: And she was teacher’s pet, but anyw...  a77ad762395ec596b3b8da236e47235a  [00ff4fca30e291bc1b3fe51ef4563cde]    1200.0      
+3   749b7537a1839bf99075a0852496d717  reatening environment, where they did not get ...  749b7537a1839bf99075a0852496d717  [00ff4fca30e291bc1b3fe51ef4563cde]    1200.0      
+4   123b198d891be9db358712396c026702   complete with that course, except for I had t...  123b198d891be9db358712396c026702  [00ff4fca30e291bc1b3fe51ef4563cde]    1200.0      
+..                               ...                                                ...                               ...                                 ...       ...      
+59  ab648ed02faefdbd13f649d2f628c6ff  , so things where instead of us trying to disc...  ab648ed02faefdbd13f649d2f628c6ff      1200.0
+60  336954ea071abbd04a80f4eaf8f15f75   build their economies in the you know, in the...  336954ea071abbd04a80f4eaf8f15f75      1200.0
+61  ae66eca4a649fce9539e8c95a738c72e  , or going to a, you know, a four-year school ...  ae66eca4a649fce9539e8c95a738c72e      1200.0
+62  98261c91dc2730376840852eaac50f76   in the economic engine that's going to drive ...  98261c91dc2730376840852eaac50f76      1200.0
+63  ea6743d11ffbd7fb4d7349b146a67681   see all of that happening, and to like just b...  ea6743d11ffbd7fb4d7349b146a67681       500.0
+
+[64 rows x 5 columns]
+🚀 create_base_extracted_entities
+                                        entity_graph
+0  <graphml xmlns="http://graphml.graphdrawing.or...
+🚀 create_summarized_entities
+                                        entity_graph
+0  <graphml xmlns="http://graphml.graphdrawing.or...
+🚀 create_base_entity_graph
+   level                                    clustered_graph
+0      0  <graphml xmlns="http://graphml.graphdrawing.or...
+1      1  <graphml xmlns="http://graphml.graphdrawing.or...
+2      2  <graphml xmlns="http://graphml.graphdrawing.or...
+3      3  <graphml xmlns="http://graphml.graphdrawing.or...
+4      4  <graphml xmlns="http://graphml.graphdrawing.or...
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\numpy\core\fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version.
+Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\numpy\core\fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version.
+Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+🚀 create_final_entities
+                                   id                          name  ...                                      text_unit_ids
+description_embedding
+0    0bea32879ccd47a8a888678673ee3028                   MAE JEMISON  ...  [0900d8a693b4d81016ece7a5084ca4db, 123b198d891...  [0.06652918457984924, -0.025584489107131958,    
+0...
+1    59a02b4714ad452d9845be266aab4a78                   KEVIN SCOTT  ...  [0900d8a693b4d81016ece7a5084ca4db, 09510a1363e...  [0.0350932851433754, -0.04698536545038223,      
+-0....
+2    9dec7469729c4b729ce88c29fe75b506                      STANFORD  ...  [9e859295e56ccc9aa92432531da89338, e90d6a67f5a...  [-0.013402522541582584, -0.07857788354158401,   
+...
+3    b684e9411d674319868892b80c9af517      FIND WHERE THE WIND GOES  ...                 [9e859295e56ccc9aa92432531da89338]  [0.026659123599529266, 0.03539780154824257,     
+0....
+4    2335bd06213b480baeb7a274093676b9        CHICAGO PUBLIC SCHOOLS  ...  [749b7537a1839bf99075a0852496d717, 9e859295e56...  [0.04264674708247185, -0.04284267500042915,     
+0....
+..                                ...                           ...  ...                                                ...
+...
+173  b956e95e5fab42349d417b7651beabef         RISE OF THE REST FUND  ...                 [98261c91dc2730376840852eaac50f76]  [0.008243028074502945, -0.0309606846421957,     
+0....
+174  be4c153c6da7447bb3629471e51c3a9d  PRECISION PLASTICS MACHINING  ...                 [98261c91dc2730376840852eaac50f76]  [0.0027195930015295744, 0.04490147531032562,    
+0...
+175  84ccf02fffaa4720bd702ee96e4c5639                      HUGH E’S  ...                 [98261c91dc2730376840852eaac50f76]  [0.01566123403608799, -0.03453729674220085,     
+-0...
+176  ac96529339d24033819d031224edf65c               SOCIAL NETWORKS  ...                   [-0.0225516390055418, -0.02372029796242714, -0...
+177  a44f98a383ea4e6487143132bf434acc                     COMMUNITY  ...                   [0.039513275027275085, -0.002285629976540804, ...
+
+[356 rows x 8 columns]
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\numpy\core\fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version.
+Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\datashaper\engine\verbs\convert.py:72: FutureWarning: errors='ignore' is deprecated and will raise in a future version. 
+Use to_datetime without passing `errors` and catch exceptions explicitly instead
+  datetime_column = pd.to_datetime(column, errors="ignore")
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\datashaper\engine\verbs\convert.py:72: UserWarning: Could not infer format, so each element will be parsed individually,
+falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  datetime_column = pd.to_datetime(column, errors="ignore")
+🚀 create_final_nodes
+      level                         title          type                                        description  ... entity_type                 top_level_node_id  x  y
+0         0                   MAE JEMISON        PERSON  Mae Jemison is a distinguished former NASA ast...  ...         NaN  0bea32879ccd47a8a888678673ee3028  0  0
+1         0                   KEVIN SCOTT        PERSON  Kevin Scott is a prominent computer scientist ...  ...         NaN  59a02b4714ad452d9845be266aab4a78  0  0
+2         0                      STANFORD           GEO  Stanford University is a prestigious instituti...  ...         NaN  9dec7469729c4b729ce88c29fe75b506  0  0
+3         0      FIND WHERE THE WIND GOES         EVENT  Find Where the Wind Goes is a book by Mae Jemi...  ...         NaN  b684e9411d674319868892b80c9af517  0  0
+4         0        CHICAGO PUBLIC SCHOOLS  ORGANIZATION  Chicago Public Schools is the school district ...  ...         NaN  2335bd06213b480baeb7a274093676b9  0  0
+...     ...                           ...           ...                                                ...  ...         ...                               ... .. ..
+1775      4         RISE OF THE REST FUND  ORGANIZATION  The Rise of the Rest Fund is an initiative aim...  ...         NaN  b956e95e5fab42349d417b7651beabef  0  0
+1776      4  PRECISION PLASTICS MACHINING  ORGANIZATION  Precision plastics machining is a business in ...  ...         NaN  be4c153c6da7447bb3629471e51c3a9d  0  0
+1777      4                      HUGH E’S                                                                   ...         NaN  84ccf02fffaa4720bd702ee96e4c5639  0  0
+1778      4               SOCIAL NETWORKS           GEO  Social networks are platforms that facilitate ...  ...         NaN  ac96529339d24033819d031224edf65c  0  0
+1779      4                     COMMUNITY                                                                   ...         NaN  a44f98a383ea4e6487143132bf434acc  0  0
+
+[1780 rows x 15 columns]
+🚀 create_final_communities
+    id         title  level                                   relationship_ids                                      text_unit_ids
+0    3   Community 3      0  [9ccbda9e69d14dfab301d476668984d2, 39c455d424d...  [0900d8a693b4d81016ece7a5084ca4db,123b198d891b...
+1    1   Community 1      0  [3539650af2204e6db318f7b6079697e2, dfd587694e6...  [0900d8a693b4d81016ece7a5084ca4db,09510a1363ec...
+2    2   Community 2      0  [1675768c85e24213893f1d071508fd36, d003b7a20eb...  [9e859295e56ccc9aa92432531da89338,e90d6a67f5a2...
+3    5   Community 5      0  [864d0bd6fca94dafb916b964b804a1f7, 987f238f915...  [16fd77b54bd4e6a53e6311652f5574f3,3df77677b9a2...
+4    9   Community 9      0  [a054b6eae2a34ba9b1e7e66502893688, 1e52ef058c2...  [3df77677b9a28dae64ed87bd9c57a51a,6a4762d6c470...
+..  ..           ...    ...                                                ...                                                ...
+56  48  Community 48      2  [9f111f9654574cffad41c11d9615db25, b0f511260c3...                 [336954ea071abbd04a80f4eaf8f15f75]
+57  57  Community 57      3  [3539650af2204e6db318f7b6079697e2, dfd587694e6...  [0900d8a693b4d81016ece7a5084ca4db,09510a1363ec...
+58  58  Community 58      3  [c586b20b7cf94b7d971dc254241beedb, cd17fd83b5c...                 [8b4d61f44136cccae5969aff0f9e15ab]
+59  59  Community 59      4  [3539650af2204e6db318f7b6079697e2, dfd587694e6...  [0900d8a693b4d81016ece7a5084ca4db,09510a1363ec...
+60  60  Community 60      4  [7ea5ccf4cf384acd8b7d75b0628af4d4, 7c3fc18cfb6...  [17455ed964e16ed9e99ec6d4e1a2fdd3,957467d00306...
+
+[61 rows x 5 columns]
+🚀 create_final_relationships
+                           source                        target  weight  ... source_degree target_degree rank
+0                     MAE JEMISON        CHICAGO PUBLIC SCHOOLS     8.0  ...            36             1   37
+1                     MAE JEMISON                      STANFORD     8.0  ...            36             2   38
+2                     MAE JEMISON      FIND WHERE THE WIND GOES     6.0  ...            36             1   37
+3                     MAE JEMISON                   KEVIN SCOTT    20.0  ...            36            77  113
+4                     MAE JEMISON          MAE JEMISON'S MOTHER     8.0  ...            36             1   37
+..                            ...                           ...     ...  ...           ...           ...  ...
+426            EDUCATIONAL EQUITY                    FOUNDATION     8.0  ...             2             2    4
+427                   ROLE MODELS        MACHINE LEARNING TOOLS     5.0  ...             2             1    3
+428               CAMPBELL COUNTY         RISE OF THE REST FUND     1.0  ...             3             2    5
+429               CAMPBELL COUNTY  PRECISION PLASTICS MACHINING     7.0  ...             3             2    5
+430  PRECISION PLASTICS MACHINING                      HUGH E’S     8.0  ...             2             1    3
+
+[431 rows x 10 columns]
+🚀 create_final_text_units
+                                  id  ...                                   relationship_ids
+0   d860068315890bae779295efc52a29a6  ...                                               None
+1   9e859295e56ccc9aa92432531da89338  ...  [9ccbda9e69d14dfab301d476668984d2, 39c455d424d...
+2   a77ad762395ec596b3b8da236e47235a  ...  [9ba01457665e40c5b0fc2ca98262c533, a8d1ce2c0da...
+3   749b7537a1839bf99075a0852496d717  ...  [9ccbda9e69d14dfab301d476668984d2, 9ba01457665...
+4   123b198d891be9db358712396c026702  ...  [a8d1ce2c0dab43b69f9f26342e36751f, 75d963130e1...
+..                               ...  ...                                                ...
+59  ab648ed02faefdbd13f649d2f628c6ff  ...  [9c8beab8f14d487c90f7b78b0ef45623, 65b130fcd78...
+60  336954ea071abbd04a80f4eaf8f15f75  ...  [4f5ad3d9a3754a82b58d0f87d0f4f2f0, 9c8beab8f14...
+61  ae66eca4a649fce9539e8c95a738c72e  ...  [9c8beab8f14d487c90f7b78b0ef45623, 56e9c035579...
+62  98261c91dc2730376840852eaac50f76  ...  [9c8beab8f14d487c90f7b78b0ef45623, 54770ebfc18...
+63  ea6743d11ffbd7fb4d7349b146a67681  ...  [dbeb312bb52d4eb384bebe5dcf450fc9, 9c8beab8f14...
+
+[64 rows x 6 columns]
+🚀 create_final_community_reports
+   community                                       full_content  ...                                  full_content_json                                    id
+0         59  # Kevin Scott and the Future of Technology\n\n...  ...  {\n    "title": "Kevin Scott and the Future of...  ac1e72f1-0238-4844-89c7-3a367cd358f4
+1         60  # Technology and Its Impact on Society\n\nThe ...  ...  {\n    "title": "Technology and Its Impact on ...  b53a5f14-6ceb-44bf-8888-be71f3e51982
+2         57  # Kevin Scott and the Technology Community\n\n...  ...  {\n    "title": "Kevin Scott and the Technolog...  e0c64241-941a-48d8-b003-6e02b3da1cb8
+3         58  # Kevin Scott's Educational Assignments\n\nThe...  ...  {\n    "title": "Kevin Scott's Educational Ass...  7ed28c28-1bfe-4de9-bec2-c4793e859397
+4         43  # Kevin Scott and the Technology Community\n\n...  ...  {\n    "title": "Kevin Scott and the Technolog...  2e97c965-f202-426d-8ea5-13185ea3de72
+..       ...                                                ...  ...                                                ...                                   ...
+56         6  # Jacob Collier and Creative Technology Commun...  ...  {\n    "title": "Jacob Collier and Creative Te...  33854124-767e-441e-b913-b3a455ff1117
+57         7  # Rural Central Virginia's Educational Landsca...  ...  {\n    "title": "Rural Central Virginia's Educ...  6c8d2dd2-a31c-4833-8ef4-d2fe94ef19a7
+58         8  # Campbell County and Precision Plastics Machi...  ...  {\n    "title": "Campbell County and Precision...  c320c18e-306d-4bb0-bd4a-9a44724ec254
+59         9  # Artificial Intelligence Community Overview\n...  ...  {\n    "title": "Artificial Intelligence Commu...  1a1348af-4f9d-4376-97c1-002ea7725e52
+60         1  # Kevin Scott and the AI Community\n\nThe comm...  ...  {\n    "title": "Kevin Scott and the AI Commun...  e4342bfc-7a21-4fa0-9d68-627c9b95eca3
+
+[61 rows x 10 columns]
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\datashaper\engine\verbs\convert.py:72: FutureWarning: errors='ignore' is deprecated and will raise in a future version. 
+Use to_datetime without passing `errors` and catch exceptions explicitly instead
+  datetime_column = pd.to_datetime(column, errors="ignore")
+C:\Users\abhil\miniconda3\envs\rag\Lib\site-packages\datashaper\engine\verbs\convert.py:72: UserWarning: Could not infer format, so each element will be parsed individually,
+falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  datetime_column = pd.to_datetime(column, errors="ignore")
+🚀 create_base_documents
+                                 id  ...                                              title
+0  d4f8f5124d9130835e57f26ac7e28507  ...  Behind the Tech_Episode 30_Collier_Bloomberg_T...
+1  4d09f0916d76792fbb7ed5487cd789a5  ...  Behind the Tech_Episode 35_StevenBathiche_Tran...
+4  c50579bbdd8343e7adfeb2e04562f169  ...  EP-00_Behind_the_Tech_Kevin Scott_Podcast_Trai...
+5  d84c92e30c1c3377cdeb76ac07555a19  ...  EP-04_ Behind_the_Tech_Kevin Scott_Podcast_wit...
+6  f8f9f84eb472037b8d6d75428a04b760  ...  EP-20_ Behind_the_Tech_Kevin_Scott_Podcast_Rep...
+7  00ff4fca30e291bc1b3fe51ef4563cde  ...              EP-28_Behind_the_Tech_Mae-Jemison.txt
+8  0d59331056ae6f14271064c3235ddb17  ...  EP-40_Behind_the_Tech_DanielaRus_Transcript (1...
+9  5994fbfd58b8f6d8c009ee6ec9fcaaad  ...  Ep-52_Behind_the_Tech_Kevin_Scott_Podcast_with...
+2  d41d8cd98f00b204e9800998ecf8427e  ...  Behind-the-Tech_EP-38_StevenPinker_Transcript.txt
+3  d41d8cd98f00b204e9800998ecf8427e  ...  Behind-the-Tech_EP39_2021_Year-in-Review_Trans...
+
+[10 rows x 4 columns]
+🚀 create_final_documents
+                                 id  ...                                              title
+0  d4f8f5124d9130835e57f26ac7e28507  ...  Behind the Tech_Episode 30_Collier_Bloomberg_T...
+1  4d09f0916d76792fbb7ed5487cd789a5  ...  Behind the Tech_Episode 35_StevenBathiche_Tran...
+4  c50579bbdd8343e7adfeb2e04562f169  ...  EP-00_Behind_the_Tech_Kevin Scott_Podcast_Trai...
+5  d84c92e30c1c3377cdeb76ac07555a19  ...  EP-04_ Behind_the_Tech_Kevin Scott_Podcast_wit...
+6  f8f9f84eb472037b8d6d75428a04b760  ...  EP-20_ Behind_the_Tech_Kevin_Scott_Podcast_Rep...
+7  00ff4fca30e291bc1b3fe51ef4563cde  ...              EP-28_Behind_the_Tech_Mae-Jemison.txt
+8  0d59331056ae6f14271064c3235ddb17  ...  EP-40_Behind_the_Tech_DanielaRus_Transcript (1...
+9  5994fbfd58b8f6d8c009ee6ec9fcaaad  ...  Ep-52_Behind_the_Tech_Kevin_Scott_Podcast_with...
+2  d41d8cd98f00b204e9800998ecf8427e  ...  Behind-the-Tech_EP-38_StevenPinker_Transcript.txt
+3  d41d8cd98f00b204e9800998ecf8427e  ...  Behind-the-Tech_EP39_2021_Year-in-Review_Trans...
+
+[10 rows x 4 columns]
+⠙ GraphRAG Indexer
+├── Loading Input (InputFileType.text) - 10 files loaded (0 filtered) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_base_text_units
+├── create_base_extracted_entities
+├── create_summarized_entities
+├── create_base_entity_graph
+├── create_final_entities
+├── create_final_nodes
+├── create_final_communities
+├── create_final_relationships
+├── create_final_text_units
+├── create_final_community_reports
+├── create_base_documents
+└── create_final_documents
+🚀 All workflows completed successfully.
